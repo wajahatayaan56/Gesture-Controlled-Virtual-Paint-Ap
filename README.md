@@ -42,7 +42,6 @@ Control your screen like a magic wand! This real-time virtual paint application 
 ## 🚀 Setup Instructions
 
 ### 1. Clone the repository
-```bash
 git clone https://github.com/yourusername/gesture-virtual-paint.git
 cd gesture-virtual-paint
 2. Install dependencies
