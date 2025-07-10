@@ -38,42 +38,51 @@ Control your screen like a magic wand! This real-time virtual paint application 
 - **NumPy, Pandas, Matplotlib**
 
 ---
+## 📁 Project Structure
 
+```bash
+gesture-virtual-paint/
+├── data_collection.py         # Collects gesture data using webcam
+├── train_model.py             # Trains Random Forest classifier
+├── train_cnn.py               # Trains CNN model on gesture images
+├── virtual_paint_ml.py        # Main application (choose ML or CNN at runtime)
+├── gesture_model.pkl          # Saved Random Forest model
+├── cnn_gesture_model.h5       # Saved CNN model
+├── gesture_images/            # Folder of gesture images (used for CNN training)
+└── README.md                  # Project documentation
+```
+---
 ## 🚀 Setup Instructions
-
 ### 1. Clone the repository
+```bash 
 git clone https://github.com/yourusername/gesture-virtual-paint.git
+```
+```bash
 cd gesture-virtual-paint
-2. Install dependencies
-pip install -r requirements.txt
-3. Collect gesture data (optional)
+```
 
+### 2. Install dependencies
+```bash
+ pip install -r requirements.txt
+```
+
+### 3. Collect gesture data (optional)
+```bash
 python data_collection.py
-4. Train a model
+```
+### 4. Train a model
 For ML (Random Forest):
-
-b
+```bash
 python train_model.py
+```
 For CNN:
-
-
+```bash
 python train_cnn.py
-5. Launch the App
+```
 
-
+### 5. Launch the App
+```bash
 python virtual_paint_ml.py
+```
 Choose between ML or CNN when prompted.
 
-
-
-📁 Project Structure
-
-gesture-virtual-paint/
-├── data_collection.py
-├── train_model.py
-├── train_cnn.py
-├── virtual_paint_ml.py
-├── gesture_model.pkl
-├── cnn_gesture_model.h5
-├── gesture_images/ (if using CNN)
-└── README.md
