@@ -46,39 +46,29 @@ Control your screen like a magic wand! This real-time virtual paint application 
 git clone https://github.com/yourusername/gesture-virtual-paint.git
 cd gesture-virtual-paint
 2. Install dependencies
-bash
-Copy
-Edit
 pip install -r requirements.txt
 3. Collect gesture data (optional)
-bash
-Copy
-Edit
+
 python data_collection.py
 4. Train a model
 For ML (Random Forest):
 
-bash
-Copy
-Edit
+b
 python train_model.py
 For CNN:
 
-bash
-Copy
-Edit
+
 python train_cnn.py
 5. Launch the App
-bash
-Copy
-Edit
+
+
 python virtual_paint_ml.py
 Choose between ML or CNN when prompted.
 
+
+
 📁 Project Structure
-cpp
-Copy
-Edit
+
 gesture-virtual-paint/
 ├── data_collection.py
 ├── train_model.py
