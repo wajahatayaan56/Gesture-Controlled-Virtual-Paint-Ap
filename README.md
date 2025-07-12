@@ -1,6 +1,5 @@
 
-https://github.com/user-attachments/assets/55f618e7-331d-4540-aa98-f59045408899
-![Gesture-Controlled Virtual Paint App](https://github.com/user-attachments/assets/515154a9-1761-46a3-a37a-cc8a437d8aa4)# 🎨 Gesture-Controlled Virtual Paint App
+🎨 Gesture-Controlled Virtual Paint App
 
 Control your screen like a magic wand! This real-time virtual paint application lets you **draw, erase, and switch colors** using just your hand gestures — powered by **MediaPipe**, **OpenCV**, and **Machine Learning (Random Forest & CNN)**.
 
